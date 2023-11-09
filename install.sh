@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # add stretch repo to sources list
-echo "deb http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi" >> /etc/apt/sources.list
+echo "deb http://legacy.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list
 
 # update package list and install dependencies
 apt update
